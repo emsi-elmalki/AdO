@@ -10,10 +10,13 @@ cp -R /home/AdO/product_barcode /usr/lib/python3/dist-packages/odoo/addons/
 # Installation de la modification de PoS
 # Intégration d'un champs de saisie de code-barre dans le PdV
 cp /home/AdO/Barcode_PoS/Chrome.js /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/js/Chrome.js
-cp /home/AdO/Barcode_PoS/Chrome.xml /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/xml
-cp /home/AdO/Barcode_PoS/DebugWidget.js /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/js/ChromeWidgets
-cp /home/AdO/Barcode_PoS/DebugWidget.xml /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/xml/ChromeWidgets
-cp /home/AdO/Barcode_PoS/pos.css /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/css
+cp /home/AdO/Barcode_PoS/Chrome.xml /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/xml/Chrome.xml
+cp /home/AdO/Barcode_PoS/DebugWidget.js /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/js/ChromeWidgets/DebugWidget.js
+cp /home/AdO/Barcode_PoS/DebugWidget.xml /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/xml/ChromeWidgets/DebugWidget.xml
+cp /home/AdO/Barcode_PoS/pos.css /usr/lib/python3/dist-packages/odoo/addons/point_of_sale/static/src/css/pos.css
+
+
+cp /home/AdO/Color/primary_variables.scss /usr/lib/python3/dist-packages/odoo/addons/web/static/src/scss/primary_variables.scss
 
 # Mise à jour “apt“
 apt update
