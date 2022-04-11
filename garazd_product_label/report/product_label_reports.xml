@@ -18,7 +18,7 @@
     </record>
 
     <record id="report_product_label_A4_57x35" model="ir.actions.report">
-        <field name="name">Product labels 57x35mm</field>
+        <field name="name">Product labels</field>
         <field name="model">print.product.label.line</field>
         <field name="report_type">qweb-pdf</field>
         <field name="paperformat_id" ref="garazd_product_label.paperformat_a4_clear"/>
@@ -27,7 +27,7 @@
     </record>
 
     <record id="report_product_label_A4_57x35_preview" model="ir.actions.report">
-        <field name="name">Product labels 57x35mm (preview)</field>
+        <field name="name">Product labels (preview)</field>
         <field name="model">print.product.label.line</field>
         <field name="report_type">qweb-html</field>
         <field name="paperformat_id" ref="garazd_product_label.paperformat_a4_clear"/>
