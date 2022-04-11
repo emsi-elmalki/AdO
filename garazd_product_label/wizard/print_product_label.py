@@ -47,7 +47,7 @@ class PrintProductLabel(models.TransientModel):
         default=_get_products,
     )
     template = fields.Selection(
-        selection=[('garazd_product_label.report_product_label_A4_57x35', 'Label 57x35mm (A4: 21 pcs on sheet, 3x7)')],
+        selection=[('garazd_product_label.report_product_label_A4_57x35', 'Label')],
         string='Label template',
         default='garazd_product_label.report_product_label_A4_57x35',
     )
